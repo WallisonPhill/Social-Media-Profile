@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 62.5%;
+  font-family: var(--font-family);
+  background-color: var(--grey-900);
+
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+:root {
+  --font-family: 'Inter', sans-serif;
+  
+  --font-size-md: 1.4rem;
+  --font-size-sm: .8rem;
+
+  --green: hsl(75, 94%, 57%);
+  --grey-700: hsl(0, 0%, 20%);
+  --grey-800: hsl(0, 0%, 12%);
+  --grey-900: hsl(0, 0%, 8%);
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: .8rem;
+
+  background-color: var(--grey-700);
+  padding-block: .8rem;
+  border-radius: .5rem;
+}
+
+a:hover {
+  color: var(--green);
+  background-color: var(--grey-800);
+}
