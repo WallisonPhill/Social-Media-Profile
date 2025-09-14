@@ -7,6 +7,7 @@ Coloquei em prática os princípios:
 - Design
 - Figma
 - Organização de projetos
+- Uso de Variáveis
 
 
 <img width="437" height="754" alt="image" src="https://github.com/user-attachments/assets/bfe93cf6-e744-415d-8b48-642d9b5d0e85" />
